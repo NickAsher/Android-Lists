@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_array_of_data" >
+        <item name="item1">yolo</item>
+        <item name="item2">yolo1</item>
+        <item name="item3">yolo2</item>
+        <item name="item4">yolo3</item>
+        <item name="item5">yolo4</item>
+        <item name="item6">yolo5</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

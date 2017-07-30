@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="This is a List"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a new Dogy"
+        android:onClick="Add"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/main_ListView_list">
+
+    </ListView>
+
+
+
+</LinearLayout>
